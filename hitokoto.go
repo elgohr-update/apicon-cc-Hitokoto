@@ -68,7 +68,7 @@ func main() {
 			}
 		}
 
-		encode := c.DefaultQuery("encode", "text") // 编码
+		encode := c.DefaultQuery("encode", "json") // 默认 JSON 编码
 
 		// 选择句子类型
 		sType := sentenceTypes[rand.Intn(len(sentenceTypes))]
